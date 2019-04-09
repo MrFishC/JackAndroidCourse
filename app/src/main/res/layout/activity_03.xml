@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 对应activity中的showToast方法-->
+    <Button
+    android:onClick="showToast"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="420dp"
+    android:text="showToast"
+    app:layout_constraintEnd_toStartOf="@+id/guideline2"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 对应activity中的shotFix方法-->
+    <Button
+    android:onClick="hotFix"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="420dp"
+    android:text="fix"
+    app:layout_constraintStart_toStartOf="@+id/guideline2"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <!--不了解ConstraintLayout的童鞋只用关注上面的两个按钮就行 -->
+    <android.support.constraint.Guideline
+    android:id="@+id/guideline2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.5" />
+
+</android.support.constraint.ConstraintLayout>

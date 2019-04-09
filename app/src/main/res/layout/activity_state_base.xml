@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jack.cn.statelayoutlib.StateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/base_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:empty_layout="@layout/layout_empty"
+    app:error_layout="@layout/layout_error"
+    app:neterror_layout="@layout/layout_net_error"
+    app:loading_layout="@layout/layout_loding">
+
+</jack.cn.statelayoutlib.StateLayout>

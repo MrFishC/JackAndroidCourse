@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listContent">
+        <item >01.打造IOC注解框架</item>
+        <item >02.AOP简单使用</item>
+        <item >03.模拟热修复hotfix实现</item>
+        <item >04.万能的dialog</item>
+        <item >05.状态布局和BaseActivity</item>
+        <item >item6</item>
+        <item >item7</item>
+        <item >item7</item>
+    </string-array>
+
+</resources>

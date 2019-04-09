@@ -1,0 +1,2 @@
+cn\jack\easykid\MainActivity.java
+cn\jack\easykid\base\MyApp.java
