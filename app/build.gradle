@@ -96,14 +96,14 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation rootProject.ext.dependencies["constraint"]
-    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-alpha4'
+    testImplementation 'junit:junit:4.13-beta-2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':findjackviewbyid')
     implementation project(':baselibrary')
     //aspectjrt配置二：aspectjrt在lib中配置和在modul中配置完全不同，若需要在lib中配置，请参考文章https://www.jianshu.com/p/16c5e8cdcf08，本demo的aop演示是在modul中配置的。
-    implementation 'org.aspectj:aspectjrt:1.9.1'
+    implementation 'org.aspectj:aspectjrt:1.9.3'
     //分包,位置2： Gralde 配置
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.android.support:multidex-instrumentation:1.0.3'

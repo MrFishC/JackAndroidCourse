@@ -1,1 +1,1 @@
-include ':app', ':findjackviewbyid', ':baselibrary', ':hotfixlib', ':commondialog', ':statelayoutlib'
+include ':app', ':findjackviewbyid', ':baselibrary', ':hotfixlib', ':commondialog', ':statelayoutlib', ':navigationbarlib', ':roomdemo', ':livedatademo'

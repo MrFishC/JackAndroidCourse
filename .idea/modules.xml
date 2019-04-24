@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JackAndroidCourse.iml" filepath="$PROJECT_DIR$/JackAndroidCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commondialog/commondialog.iml" filepath="$PROJECT_DIR$/commondialog/commondialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findjackviewbyid/findjackviewbyid.iml" filepath="$PROJECT_DIR$/findjackviewbyid/findjackviewbyid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotfixlib/hotfixlib.iml" filepath="$PROJECT_DIR$/hotfixlib/hotfixlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livedatademo/livedatademo.iml" filepath="$PROJECT_DIR$/livedatademo/livedatademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationbarlib/navigationbarlib.iml" filepath="$PROJECT_DIR$/navigationbarlib/navigationbarlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roomdemo/roomdemo.iml" filepath="$PROJECT_DIR$/roomdemo/roomdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statelayoutlib/statelayoutlib.iml" filepath="$PROJECT_DIR$/statelayoutlib/statelayoutlib.iml" />
+    </modules>
+  </component>
+</project>
