@@ -8,6 +8,7 @@
     04.使用构建者模式打造万能的dialog;
     05.打造状态布局和BaseActivity；
     06.轮播图；
+    07.模仿支付宝首页编辑页面实现[alipayhomeeditalluidemo的readme中包含详细注释];
 
 #### 软件架构
 软件架构说明

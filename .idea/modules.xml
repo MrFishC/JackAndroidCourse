@@ -3,11 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JackAndroidCourse.iml" filepath="$PROJECT_DIR$/JackAndroidCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipayeditmore/alipayeditmore.iml" filepath="$PROJECT_DIR$/alipayeditmore/alipayeditmore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipayhomeeditalluidemo/alipayhomeeditalluidemo.iml" filepath="$PROJECT_DIR$/alipayhomeeditalluidemo/alipayhomeeditalluidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipaymenuui/alipaymenuui.iml" filepath="$PROJECT_DIR$/alipaymenuui/alipaymenuui.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/commondialog/commondialog.iml" filepath="$PROJECT_DIR$/commondialog/commondialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/findjackviewbyid/findjackviewbyid.iml" filepath="$PROJECT_DIR$/findjackviewbyid/findjackviewbyid.iml" />
       <module fileurl="file://$PROJECT_DIR$/hotfixlib/hotfixlib.iml" filepath="$PROJECT_DIR$/hotfixlib/hotfixlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lifecycledemo/lifecycledemo.iml" filepath="$PROJECT_DIR$/lifecycledemo/lifecycledemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/livedatademo/livedatademo.iml" filepath="$PROJECT_DIR$/livedatademo/livedatademo.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationbarlib/navigationbarlib.iml" filepath="$PROJECT_DIR$/navigationbarlib/navigationbarlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/roomdemo/roomdemo.iml" filepath="$PROJECT_DIR$/roomdemo/roomdemo.iml" />

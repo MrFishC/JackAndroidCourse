@@ -20,5 +20,7 @@ ext {
             //布局
             "constraint"         : "com.android.support.constraint:constraint-layout:2.0.0-alpha4",
 
+            "junit"              : "junit:junit:4.13-beta-2",
+
     ]
 }

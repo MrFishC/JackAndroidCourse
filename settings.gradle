@@ -1,1 +1,1 @@
-include ':app', ':findjackviewbyid', ':baselibrary', ':hotfixlib', ':commondialog', ':statelayoutlib', ':navigationbarlib', ':roomdemo', ':livedatademo'
+include ':app', ':findjackviewbyid', ':baselibrary', ':hotfixlib', ':commondialog', ':statelayoutlib', ':roomdemo', ':livedatademo', ':lifecycledemo', ':alipayhomeeditalluidemo', ':alipaymenuui', ':alipayeditmore'

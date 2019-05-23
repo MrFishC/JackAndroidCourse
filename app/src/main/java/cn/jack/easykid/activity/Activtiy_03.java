@@ -55,8 +55,11 @@ public class Activtiy_03 extends AppCompatActivity {
     }
 
     public void showToast(View view) {
-        ParamsSort paramsSort = new ParamsSort();
-        paramsSort.math(this);
+
+        Toast.makeText(this,"直接",Toast.LENGTH_SHORT).show();
+
+//        ParamsSort paramsSort = new ParamsSort();
+//        paramsSort.math(this);
     }
 
     public void hotFix(View view) {

@@ -6,12 +6,47 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="LiveData" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="AvailableLibraryUpdateStorage">
     <library-updates>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test</group-id>
+        <name>runner</name>
+        <version>1.0.2</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.0.2</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
       <library-update>
         <group-id>com.android.support</group-id>
         <name>multidex-instrumentation</name>
@@ -25,56 +60,26 @@
         <repository>Google,Android Repository</repository>
       </library-update>
       <library-update>
-        <group-id>com.android.support.constraint</group-id>
-        <name>constraint-layout</name>
-        <version>2.0.0-alpha4</version>
-        <repository>Google</repository>
-      </library-update>
-      <library-update>
-        <group-id>junit</group-id>
-        <name>junit</name>
-        <version>4.13-beta-2</version>
-        <repository>JCenter</repository>
-      </library-update>
-      <library-update>
-        <group-id>com.android.support.test</group-id>
-        <name>runner</name>
-        <version>1.0.2</version>
-        <repository>Google,Android Repository</repository>
-      </library-update>
-      <library-update>
         <group-id>org.aspectj</group-id>
         <name>aspectjrt</name>
-        <version>1.9.3</version>
+        <version>1.9.4</version>
         <repository>JCenter</repository>
-      </library-update>
-      <library-update>
-        <group-id>com.android.support.test.espresso</group-id>
-        <name>espresso-core</name>
-        <version>3.0.2</version>
-        <repository>Google,Android Repository</repository>
-      </library-update>
-      <library-update>
-        <group-id>com.android.support</group-id>
-        <name>appcompat-v7</name>
-        <version>28.0.0</version>
-        <repository>Google,Android Repository</repository>
       </library-update>
       <library-update>
         <group-id>android.arch.lifecycle</group-id>
-        <name>runtime</name>
+        <name>extensions</name>
+        <version>1.1.1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>android.arch.lifecycle</group-id>
+        <name>common-java8</name>
         <version>1.1.1</version>
         <repository>Google</repository>
       </library-update>
       <library-update>
         <group-id>android.arch.lifecycle</group-id>
         <name>compiler</name>
-        <version>1.1.1</version>
-        <repository>Google</repository>
-      </library-update>
-      <library-update>
-        <group-id>android.arch.lifecycle</group-id>
-        <name>extensions</name>
         <version>1.1.1</version>
         <repository>Google</repository>
       </library-update>
@@ -109,132 +114,235 @@
         <repository>Google</repository>
       </library-update>
     </library-updates>
-    <last-search-timestamp>1556096212711</last-search-timestamp>
+    <last-search-timestamp>1558596470079</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add19e4b-03a9-4f31-90bb-fdb4c5038629" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_guava_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_rxjava2_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_testing_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_2_0_0_alpha4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_2_0_0_alpha4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_23_6_android_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_beta_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_9_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/livedatademo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/androidTest/java/jack/livedatademo/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MyData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/test/java/jack/livedatademo/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/roomdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/androidTest/java/jack/roomdemo/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/UserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roomdemo/src/test/java/jack/roomdemo/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_java8_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/assets/menulist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/IndexDataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragAdapterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragForScrollView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/entity/MenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/tab/Bm_LinearLayoutManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/tab/Bm_LinearSmoothScroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/tab/SynchroScrollingTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MenuManageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/CustomExpandableListView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/GridViewForScrollView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/LineGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/MyGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/drawable/btn_ll_back_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/drawable/tabitem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/common_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/item_gridview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/item_textview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_child.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_grid_child.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_parent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/all_big_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_daiban_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_ggtz_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_gsfw_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_jhsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_jxpd_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_lccgx_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_lccy_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_lcsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_rwsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdjh_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdlc_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdrw_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdzj_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_yx_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_zjsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/menu_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/menu_del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/menu_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/top_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/alipayhomeeditalluidemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/androidTest/java/jack/alipayhomeeditalluidemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/ListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearLayoutManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearSmoothScroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/SynchroScrollingTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/item_textview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/src/test/java/jack/alipayhomeeditalluidemo/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/assets/menulist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/IndexDataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuChildAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuParentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragAdapterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragForScrollView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/entity/MenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MenuManageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/CustomExpandableListView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/GridViewForScrollView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/LineGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/MyGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/drawable/btn_ll_back_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/common_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/item_gridview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_child.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_grid_child.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_parent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/view_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/all_big_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_daiban_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_ggtz_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_gsfw_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_jhsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_jxpd_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_lccgx_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_lccy_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_lcsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_rwsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_wdjh_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_wdlc_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_wdrw_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_wdzj_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_yx_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/app_zjsp_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/menu_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/menu_del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/menu_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xhdpi/top_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alipaymenuui/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/lifecycledemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/androidTest/java/jack/lifecycledemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/jack/lifecycledemo/Java8Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/jack/lifecycledemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/test/java/jack/lifecycledemo/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/activity/Activtiy_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/activity/Activtiy_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/activity/Activtiy_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/activity/Activtiy_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baselibrary/baselibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/baselibrary/baselibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baselibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/baselibrary/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commondialog/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commondialog/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commondialog/commondialog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/commondialog/commondialog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/findjackviewbyid/findjackviewbyid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/findjackviewbyid/findjackviewbyid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotfixlib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hotfixlib/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotfixlib/hotfixlib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hotfixlib/hotfixlib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigationbarlib/navigationbarlib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/livedatademo/livedatademo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/livedatademo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roomdemo/roomdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/roomdemo/roomdemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statelayoutlib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/statelayoutlib/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statelayoutlib/statelayoutlib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/statelayoutlib/statelayoutlib.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -258,79 +366,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#99#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotfixlib/hotfixlib.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/SynchroScrollingTab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/ListAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_item.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/OnClick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/ViewJackById.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/ViewJackFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/ViewJackUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/build.gradle">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commondialog/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -344,14 +419,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AppDatabase</find>
       <find>insert</find>
       <find>delete</find>
       <find>Nullable</find>
       <find>onStop</find>
       <find>onInactive</find>
-      <find>getJavaCompile</find>
       <find>variant</find>
+      <find>onCreate(@Nullable Bundle savedInstanceState)</find>
+      <find>getLifecycle</find>
+      <find>mState</find>
+      <find>LifecycleRegistry</find>
+      <find>addObserver</find>
+      <find>statefulObserver</find>
+      <find>handleLifecycleEvent</find>
+      <find>dispatchEvent</find>
+      <find>backwardPass</find>
+      <find>movetos</find>
+      <find>DefaultLifecycleObserver</find>
+      <find>CheckNet</find>
+      <find>checkNetBehavior</find>
+      <find>Around</find>
+      <find>getJavaCompile</find>
+      <find>wrapperFl</find>
+      <find>adapter</find>
+      <find>madapter</find>
+      <find>tabLayout</find>
+      <find>recyclerView</find>
+      <find>isTabSelect</find>
+      <find>tabs</find>
+      <find>ListAdapter</find>
+      <find>setItemClick</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -377,16 +474,51 @@
         <option value="$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MainActivity.java" />
         <option value="$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MyData.java" />
         <option value="$PROJECT_DIR$/livedatademo/build.gradle" />
-        <option value="$PROJECT_DIR$/config.gradle" />
         <option value="$PROJECT_DIR$/roomdemo/build.gradle" />
+        <option value="$PROJECT_DIR$/config.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/lifecycledemo/src/main/java/jack/lifecycledemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/lifecycledemo/build.gradle" />
+        <option value="$PROJECT_DIR$/lifecycledemo/src/main/java/jack/lifecycledemo/Java8Observer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/aop/PreventRepeat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/aop/RepeatAspectJ.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/activity/Activtiy_03.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/jack/easykid/aop/ClickFilterHook.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/ReadMe" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/build.gradle" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearSmoothScroller.java" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/ListAdapter.java" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/item_textview.xml" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/SynchroScrollingTab.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/build.gradle" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/IndexDataAdapter.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuParentAdapter.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MyAdapter.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragGridView.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MenuManageActivity.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuChildAdapter.java" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_menu_manage.xml" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/item_gridview.xml" />
+        <option value="$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_grid_child.xml" />
+        <option value="$PROJECT_DIR$/alipayeditmore/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="636" />
-    <option name="y" value="29" />
-    <option name="width" value="929" />
-    <option name="height" value="1011" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="955" />
+    <option name="y" value="48" />
+    <option name="width" value="930" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -400,6 +532,16 @@
             <path>
               <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hotfixlib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,11 +557,24 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/opt/android-sdk-linux" />
     <property name="device.picker.selection" value="192.168.1.123:5555" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MenuManage-Imitate-Alipay-master" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jack.alipayhomeeditalluidemo" />
+      <recent name="cn.jack.easykid.aop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/alipaymenuui/src/main" />
+      <recent name="$PROJECT_DIR$/alipaymenuui/src/main/res" />
+      <recent name="$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui" />
+      <recent name="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -433,7 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.livedatademo">
+  <component name="RunManager" selected="Android App.alipayeditmore">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -459,8 +614,220 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="alipayeditmore" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="alipayeditmore" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alipayhomeeditalluidemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="alipayhomeeditalluidemo" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alipaymenuui" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="alipaymenuui" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lifecycledemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="lifecycledemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -636,6 +1003,10 @@
       <item itemvalue="Android App.app" />
       <item itemvalue="Android App.roomdemo" />
       <item itemvalue="Android App.livedatademo" />
+      <item itemvalue="Android App.lifecycledemo" />
+      <item itemvalue="Android App.alipayhomeeditalluidemo" />
+      <item itemvalue="Android App.alipaymenuui" />
+      <item itemvalue="Android App.alipayeditmore" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -661,9 +1032,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="7" />
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -673,15 +1044,15 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32790446" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.27470142" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32790697" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.33767644" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32899022" />
@@ -698,180 +1069,350 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/Anime.java" />
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/AnimeDao.java" />
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/MyApp.java" />
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/build/generated/source/apt/debug/jack/roomdemo/UserDao_Impl.java" />
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/UserDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/schemas/jack.roomdemo.UserDatabase/1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statelayoutlib/src/main/java/jack/cn/statelayoutlib/StateLayout.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d9ee3f5f000d845c027b9b2b013498e/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <caret line="933" column="16" selection-start-line="933" selection-start-column="16" selection-end-line="933" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragAdapterInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="299" column="41" selection-start-line="299" selection-start-column="41" selection-end-line="299" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MyData.java">
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/entity/MenuEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/livedatademo/build.gradle">
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MenuManageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="81" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roomdemo/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findjackviewbyid/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotfixlib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/OnClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/ViewJackById.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/ViewJackFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findjackviewbyid/src/main/java/cn/jack/findjackviewbyid/ViewJackUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commondialog/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="-6437">
+          <caret line="123" column="43" selection-start-line="123" selection-start-column="43" selection-end-line="123" selection-end-column="43" />
           <folding>
-            <element signature="e#0#99#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/CustomExpandableListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.gradle">
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/GridViewForScrollView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/MyGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/LineGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/assets/menulist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/res/layout/view_item.xml" />
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/IndexDataAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuChildAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="77" column="31" lean-forward="true" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuParentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragForScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/opt/android-sdk-linux/sources/android-28/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="904" column="7" lean-forward="true" selection-start-line="904" selection-start-column="7" selection-end-line="904" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_menu_manage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/common_top.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/item_gridview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_child.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_grid_child.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_parent.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/view_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/item_textview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearSmoothScroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/main/res/layout/view_item.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/alipayeditmore.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/SynchroScrollingTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/ListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="69" column="58" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="69" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotfixlib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotfixlib/hotfixlib.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_item.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
   <component name="masterDetails">
