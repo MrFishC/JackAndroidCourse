@@ -6,16 +6,11 @@
     android:background="#f0f0ed"
     android:orientation="vertical">
 
-    <include
-        android:id="@+id/common"
-        layout="@layout/common_top" />
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <!-- todo 头部 -->
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="35dp"
@@ -29,20 +24,10 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:gravity="center"
-                    android:text="首页应用"
+                    android:text="编辑应用"
                     android:textColor="#333333"
                     android:textSize="14dp" />
 
-                <TextView
-                    android:id="@+id/tv_drag_tip"
-                    android:layout_width="fill_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:gravity="right|center"
-                    android:text="按住拖动调整排序"
-                    android:textColor="#999999"
-                    android:textSize="10dp"
-                    android:visibility="gone" />
             </LinearLayout>
 
             <com.ywanhzy.demo.drag.DragGridView
@@ -53,7 +38,9 @@
                 android:numColumns="4"
                 android:verticalSpacing="0.5dp" />
 
+            <!-- tabIndicatorColor 设置 底部下划线的颜色 但不是最好的方法-->
             <android.support.design.widget.TabLayout
+                app:tabIndicatorColor="#00000000"
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

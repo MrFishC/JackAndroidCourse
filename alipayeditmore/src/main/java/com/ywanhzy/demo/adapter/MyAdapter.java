@@ -59,7 +59,6 @@ public class MyAdapter extends BaseAdapter implements DragAdapterInterface {
 		if (convertView == null) {
 			holder = new Holder();
 			convertView = LayoutInflater.from(context).inflate(R.layout.view_item, null);
-			holder.deleteImg = (ImageView) convertView.findViewById(R.id.delete_img);
 			holder.iconImg = (ImageView) convertView.findViewById(R.id.icon_img);
 			holder.nameTv = (TextView) convertView.findViewById(R.id.name_tv);
 			holder.container = convertView.findViewById(R.id.item_container);
@@ -67,20 +66,7 @@ public class MyAdapter extends BaseAdapter implements DragAdapterInterface {
 		} else {
 			holder = (Holder) convertView.getTag();
 		}
-		holder.deleteImg.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				context.DelMeun(datas.get(position),position);
-				datas.remove(position);
-				String key = AppConfig.KEY_USER_TEMP;
-				appContext.saveObject((Serializable) datas, key);
-			}
-		});
-		if (IsEdit) {
-			holder.deleteImg.setVisibility(View.VISIBLE);
-		} else {
-			holder.deleteImg.setVisibility(View.GONE);
-		}
+
         //获取资源图片
         int drawableId = context.getResources().getIdentifier(bean.getIco(),"mipmap", context.getPackageName());
         holder.iconImg.setImageResource(drawableId);
@@ -94,7 +80,6 @@ public class MyAdapter extends BaseAdapter implements DragAdapterInterface {
 	}
 
 	class Holder {
-		public ImageView deleteImg;
 		public ImageView iconImg;
 		public TextView nameTv;
 		public View container;

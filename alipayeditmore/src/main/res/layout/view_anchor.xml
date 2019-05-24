@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_anchor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 更改成gridview -->
+
+        <!--android:gravity="center"-->
+    <com.ywanhzy.demo.widget.MyGridView
+        android:id="@+id/gv_toolbar"
+        android:background="#ffffff"
+        android:listSelector="#dadada"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

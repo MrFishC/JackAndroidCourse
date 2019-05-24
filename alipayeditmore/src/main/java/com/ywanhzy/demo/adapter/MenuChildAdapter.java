@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.ywanhzy.demo.R;
 import com.ywanhzy.demo.entity.MenuEntity;
-import com.ywanhzy.demo.ui.MenuManageActivity;
+import com.ywanhzy.demo.ui.EditActivity;
 
 import java.util.List;
 
@@ -75,10 +75,11 @@ public class MenuChildAdapter extends BaseAdapter {
 				// String key = AppConfig.KEY_USER;
 				// appContext.saveObject((Serializable) datas, key);
 				if (!menuEntity.isSelect()) {
-					MenuManageActivity.AddMenu(menuEntity);
+					EditActivity.AddMenu(menuEntity);
 				}
 			}
 		});
+
 
 		//获取资源图片
 		int drawableId = context.getResources().getIdentifier(menuEntity.getIco(),"mipmap", context.getPackageName());

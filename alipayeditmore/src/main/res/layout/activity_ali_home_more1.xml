@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ywanhzy.demo.drag.DragGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="0.5dp"
+        android:numColumns="4"
+        android:verticalSpacing="0.5dp" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_holder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/colorPrimary" />
+
+    <com.ywanhzy.demo.sticky.CustomScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--&lt;!&ndash;<com.ywanhzy.demo.drag.DragGridView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/gridview"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:horizontalSpacing="0.5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:numColumns="4"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:verticalSpacing="0.5dp" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;占位的tablayout&ndash;&gt;-->
+                <!--&lt;!&ndash;<android.support.design.widget.TabLayout&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/tablayout_holder"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="#ffffff"&ndash;&gt;-->
+                    <!--&lt;!&ndash;app:tabIndicatorColor="@color/colorPrimary"&ndash;&gt;-->
+                    <!--&lt;!&ndash;app:tabMode="scrollable"&ndash;&gt;-->
+                    <!--&lt;!&ndash;app:tabSelectedTextColor="@color/colorPrimary" />&ndash;&gt;-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/container"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--&lt;!&ndash;实际用户操作的tablayout&ndash;&gt;-->
+            <!--&lt;!&ndash;<android.support.design.widget.TabLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/tablayout_real"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="#ffffff"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:visibility="invisible"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:tabIndicatorColor="@color/colorPrimary"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:tabMode="scrollable"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:tabSelectedTextColor="@color/colorPrimary" />&ndash;&gt;-->
+
+        <!--</FrameLayout>-->
+
+
+    </com.ywanhzy.demo.sticky.CustomScrollView>
+
+</LinearLayout>

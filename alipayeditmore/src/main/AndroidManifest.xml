@@ -22,6 +22,18 @@
         <activity
             android:name="com.ywanhzy.demo.ui.MenuManageActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.ywanhzy.demo.ui.EditActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.ywanhzy.demo.sticky.StickyActivity1"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.ywanhzy.demo.sticky.StickyActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

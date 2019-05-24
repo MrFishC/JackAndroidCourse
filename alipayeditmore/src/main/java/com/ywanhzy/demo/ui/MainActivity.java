@@ -20,6 +20,7 @@ import com.ywanhzy.demo.AppContext;
 import com.ywanhzy.demo.R;
 import com.ywanhzy.demo.adapter.IndexDataAdapter;
 import com.ywanhzy.demo.entity.MenuEntity;
+import com.ywanhzy.demo.sticky.StickyActivity1;
 import com.ywanhzy.demo.widget.LineGridView;
 
 import java.io.BufferedReader;
@@ -111,7 +112,8 @@ public class MainActivity extends AppCompatActivity {
                 Logger.i(title + strId);
 
                 if (strId.equals("all")) {// 更多
-                    intent.setClass(MainActivity.this, MenuManageActivity.class);
+//                    intent.setClass(MainActivity.this, MenuManageActivity.class);
+                    intent.setClass(MainActivity.this, StickyActivity1.class);
                     startActivity(intent);
                 }
             }
