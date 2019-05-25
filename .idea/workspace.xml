@@ -118,19 +118,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add19e4b-03a9-4f31-90bb-fdb4c5038629" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyEditAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragForScrollView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/AnchorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/CustomScrollView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/EditActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_ali_home_more.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_ali_home_more1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_anchor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -141,13 +128,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipayeditmore/alipayeditmore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/alipayeditmore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/EditActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/EditActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MenuManageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MenuManageActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_child.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_child.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alipayhomeeditalluidemo/alipayhomeeditalluidemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alipayhomeeditalluidemo/alipayhomeeditalluidemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alipaymenuui/alipaymenuui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alipaymenuui/alipaymenuui.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,89 +157,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_item.xml">
+        <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MenuManageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_ali_home_more.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="382">
+              <caret line="529" column="26" selection-start-line="529" selection-start-column="26" selection-end-line="529" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_ali_home_more1.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity1.java">
+        <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuParentAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            <state relative-caret-position="187">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuChildAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+            <state relative-caret-position="341">
+              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml">
+        <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_menu_manage.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="489">
+              <caret line="65" column="51" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="51" />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/LineGridView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/AnchorView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_anchor.xml">
-          <provider selected="true" editor-type-id="text-editor" />
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
@@ -267,36 +204,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onStop</find>
-      <find>onInactive</find>
-      <find>variant</find>
-      <find>onCreate(@Nullable Bundle savedInstanceState)</find>
-      <find>getLifecycle</find>
-      <find>mState</find>
-      <find>LifecycleRegistry</find>
-      <find>addObserver</find>
-      <find>statefulObserver</find>
-      <find>handleLifecycleEvent</find>
-      <find>dispatchEvent</find>
-      <find>backwardPass</find>
-      <find>movetos</find>
-      <find>DefaultLifecycleObserver</find>
-      <find>CheckNet</find>
-      <find>checkNetBehavior</find>
-      <find>Around</find>
-      <find>getJavaCompile</find>
-      <find>wrapperFl</find>
-      <find>adapter</find>
-      <find>madapter</find>
-      <find>tabLayout</find>
-      <find>recyclerView</find>
-      <find>isTabSelect</find>
-      <find>tabs</find>
-      <find>ListAdapter</find>
-      <find>setItemClick</find>
+      <find>iconImg</find>
+      <find>isExistDataCache</find>
+      <find>openFileInput</find>
+      <find>appContext</find>
+      <find>getFileStreamPath</find>
+      <find>saveObject</find>
+      <find>item_gridview</find>
+      <find>CustomScrollView</find>
+      <find>recycleView</find>
+      <find>tv_item_cate_name</find>
       <find>tv_drag_tip</find>
       <find>iv_top_set</find>
-      <find>AddMenu</find>
+      <find>tv_top_sure</find>
+      <find>rl_top</find>
+      <find>adapter</find>
+      <find>recyclerView</find>
+      <find>MenuChildAdapter</find>
+      <find>gv_toolbar</find>
+      <find>toolbarGrid</find>
+      <find>IsEdit</find>
+      <find>menuEntity</find>
+      <find>gridview</find>
+      <find>dragGridView</find>
+      <find>container</find>
+      <find>delete_img</find>
+      <find>adapterSelect</find>
+      <find>postMenu()</find>
+      <find>ll_top_sure</find>
+      <find>DelMeun</find>
+      <find>expandableListView</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -308,11 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/roomdemo/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/roomdemo/src/main/java/jack/roomdemo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/livedatademo/src/main/java/jack/livedatademo/MyData.java" />
-        <option value="$PROJECT_DIR$/livedatademo/build.gradle" />
         <option value="$PROJECT_DIR$/roomdemo/build.gradle" />
         <option value="$PROJECT_DIR$/config.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
@@ -357,16 +289,21 @@
         <option value="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity1.java" />
         <option value="$PROJECT_DIR$/alipayeditmore/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity.java" />
-        <option value="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/alipayeditmore/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage_edit.xml" />
+        <option value="$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_child.xml" />
+        <option value="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ListAdapter.java" />
+        <option value="$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/EditActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="955" />
-    <option name="y" value="48" />
-    <option name="width" value="930" />
-    <option name="height" value="966" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="29" />
+    <option name="y" value="11" />
+    <option name="width" value="924" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -374,9 +311,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,42 +322,94 @@
             <path>
               <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="alipayeditmore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="alipayeditmore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="alipayeditmore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="alipayeditmore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="alipayeditmore" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alipaymenuui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alipaymenuui" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alipaymenuui" type="462c0819:PsiDirectoryNode" />
+              <item name="drag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alipaymenuui" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alipaymenuui" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackAndroidCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackAndroidCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="alipaymenuui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alipaymenuui" type="462c0819:PsiDirectoryNode" />
+              <item name="widget" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +417,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/opt/android-sdk-linux" />
     <property name="device.picker.selection" value="192.168.1.123:5555" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MenuManage-Imitate-Alipay-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AsProjectRebuild/ReSanYaTeacher" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -463,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.alipayeditmore">
+  <component name="RunManager" selected="Android App.alipaymenuui">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -907,9 +894,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <frame x="29" y="11" width="924" height="1002" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3496583" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -926,7 +913,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.27470142" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32790697" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.33767644" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
@@ -944,275 +931,217 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MyAdapter.java">
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_lccgx_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_lccy_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_lcsp_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_rwsp_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdjh_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdlc_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdrw_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_yx_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_daiban_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/mipmap-xhdpi/app_wdzj_ico.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/LineGridView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragForScrollView.java">
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/opt/android-sdk-linux/sources/android-28/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="904" column="7" lean-forward="true" selection-start-line="904" selection-start-column="7" selection-end-line="904" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="493">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="29" selection-end-column="44" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_menu_manage.xml">
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/entity/MenuEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/common_top.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/item_gridview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_child.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_grid_child.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/items_cate_parent.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/view_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/item_textview.xml">
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="-708">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearSmoothScroller.java">
+    <entry file="file://$USER_HOME$/opt/android-sdk-linux/sources/android-28/android/content/ContextWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="291">
+          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/Bm_LinearLayoutManager.java">
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/AppContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="656">
+          <caret line="207" column="5" lean-forward="true" selection-start-line="178" selection-start-column="4" selection-end-line="207" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/main/res/layout/view_item.xml" />
     <entry file="file://$PROJECT_DIR$/alipayeditmore/alipayeditmore.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/tab/SynchroScrollingTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/ListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="69" column="58" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="69" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayhomeeditalluidemo/src/main/java/jack/alipayhomeeditalluidemo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotfixlib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotfixlib/hotfixlib.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/alipayeditmore/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragForScrollView.java" />
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/item_gridview.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/IndexDataAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="282">
+          <caret line="54" column="60" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/tab/Bm_LinearSmoothScroller.java">
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_child.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MenuManageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="86" column="39" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/CustomScrollView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_ali_home_more1.xml">
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/widget/GridViewForScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragAdapterInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="410" column="52" selection-start-line="410" selection-start-column="52" selection-end-line="410" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MenuManageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="51" column="57" lean-forward="true" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/common_top.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/tab/SynchroScrollingTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/MyGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_child.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/items_cate_grid_child.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/AnchorView.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d9ee3f5f000d845c027b9b2b013498e/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="17">
+          <caret line="6085" column="26" selection-start-line="6085" selection-start-column="26" selection-end-line="6085" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MenuChildAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/drag/DragGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1220,55 +1149,94 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_menu_manage_edit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_ali_home_more.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="372">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="41" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/sticky/StickyActivity1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/widget/LineGridView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/res/layout/view_item.xml">
+      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyAdapter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/adapter/MyEditAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alipayeditmore/src/main/java/com/ywanhzy/demo/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+        <state relative-caret-position="295">
+          <caret line="125" column="49" selection-start-line="125" selection-start-column="49" selection-end-line="125" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/drag/DragGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="96" column="65" lean-forward="true" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/res/layout/activity_menu_manage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuParentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/ui/MenuManageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="529" column="26" selection-start-line="529" selection-start-column="26" selection-end-line="529" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipaymenuui/src/main/java/jack/alipaymenuui/adapter/MenuChildAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
         </state>
       </provider>
     </entry>

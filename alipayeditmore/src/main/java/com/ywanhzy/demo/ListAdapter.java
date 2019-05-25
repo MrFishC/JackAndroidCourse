@@ -10,11 +10,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.ywanhzy.demo.adapter.MenuChildAdapter;
 import com.ywanhzy.demo.entity.MenuEntity;
 import com.ywanhzy.demo.widget.MyGridView;
-
 import java.util.List;
 
 /**
@@ -48,8 +46,6 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.MyViewHolder> 
     @Override
     public void onBindViewHolder(MyViewHolder myViewHolder, int i) {
         myViewHolder.groupViewHolde.tv_item_cate_name.setText(mListData.get(i).getTitle());
-
-        Log.i("onBindViewHolder ", " : " + (myViewHolder.groupViewHolde.tv_item_cate_name == null));
 
         myViewHolder.toolbarGrid.setNumColumns(4);// 设置每行列数
         myViewHolder.toolbarGrid.setGravity(Gravity.CENTER);// 位置居中

@@ -112,8 +112,8 @@ public class MainActivity extends AppCompatActivity {
                 Logger.i(title + strId);
 
                 if (strId.equals("all")) {// 更多
-//                    intent.setClass(MainActivity.this, MenuManageActivity.class);
-                    intent.setClass(MainActivity.this, StickyActivity1.class);
+                    intent.setClass(MainActivity.this, MenuManageActivity.class);
+//                    intent.setClass(MainActivity.this, StickyActivity1.class);
                     startActivity(intent);
                 }
             }

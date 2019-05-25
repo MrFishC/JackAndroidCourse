@@ -1,13 +1,17 @@
 package com.ywanhzy.demo.ui;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewTreeObserver;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
@@ -58,6 +62,9 @@ public class EditActivity extends Activity {
 
 		initView();
 		initData();
+
+		setOther();
+
 		ll_top_sure.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -79,6 +86,48 @@ public class EditActivity extends Activity {
 				}
 			}
 		});
+	}
+
+	private ViewTreeObserver.OnGlobalLayoutListener listener;
+	private void setOther() {
+
+		final View view = findViewById(R.id.rl_top);
+
+		listener = new ViewTreeObserver.OnGlobalLayoutListener() {
+			@RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+			@Override
+			public void onGlobalLayout() {
+
+				//计算让最后一个view高度撑满屏幕
+				int screenH = getResources().getDisplayMetrics().heightPixels;
+				int statusBarH = getStatusBarHeight(EditActivity.this);
+				int tabH = mTabLayout.getHeight();
+				int lastH = screenH - statusBarH - tabH - dragGridView.getHeight() - view.getHeight()  + 1  ;// 1 的作用： very good o
+
+				LinearLayout view1 = (LinearLayout) recyclerView.getChildAt(menuList.size()-1);
+
+				if (view1.getHeight() < lastH) {
+					LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+					params.height = lastH;
+					view1.setLayoutParams(params);
+				}
+
+				recyclerView.getViewTreeObserver().removeOnGlobalLayoutListener(listener);
+
+			}
+		};
+
+		recyclerView.getViewTreeObserver().addOnGlobalLayoutListener(listener);
+	}
+
+	public int getStatusBarHeight(Context context) {
+		int result = 0;
+		int resourceId = context.getResources()
+				.getIdentifier("status_bar_height", "dimen", "android");
+		if (resourceId > 0) {
+			result = context.getResources().getDimensionPixelSize(resourceId);
+		}
+		return result;
 	}
 
 	protected void postMenu() {
